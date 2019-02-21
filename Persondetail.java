@@ -1,8 +1,8 @@
 package Lab;
 
-public class Persondetail {
+public class Modeldetail {
     public static void main(String[] args) {
-        Person Kei = new Person("Stupid", "Ass hole");
+        Model Kei = new Model("Stupid", "Ass hole");
         Kei.printDetails();
 
 

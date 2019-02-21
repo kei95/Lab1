@@ -1,6 +1,6 @@
 package Lab;
 
-public class Person {
+public class Model {
     private static String occpation = "modeling";
 
     private String firstName;
@@ -10,13 +10,13 @@ public class Person {
     private boolean canTravel;
     private boolean smokes;
 
-    public Person() {
+    public Model() {
         setFirstName("lastname");
         setLastName("lastname");
 
     }
 
-    public Person(String firstName, String lastName) {
+    public Model(String firstName, String lastName) {
         setFirstName(firstName);
         setLastName(lastName);
 
@@ -24,7 +24,7 @@ public class Person {
 
 
 
-    public Person(String firstName, String lastName, int height, int weight, boolean canTravel, boolean smokes) {
+    public Model(String firstName, String lastName, int height, int weight, boolean canTravel, boolean smokes) {
 
         setFirstName(firstName);
         setLastName(lastName);
@@ -35,7 +35,7 @@ public class Person {
 
     }
 
-    public Person(String firstName, String lastName, int height, int weight) {
+    public Model(String firstName, String lastName, int height, int weight) {
 
     }
 
